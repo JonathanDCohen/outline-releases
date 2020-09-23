@@ -1,0 +1,16 @@
+directories:
+  output: dist
+  buildResources: build
+afterSign: src/server_manager/electron_app/release/notarize.js
+mac:
+  hardenedRuntime: true
+  entitlements: src/server_manager/electron_app/release/macos.entitlements
+  entitlementsInherit: src/server_manager/electron_app/release/macos.entitlements
+  icon: icons/mac/icon.icns
+asarUnpack: server_manager/web_app/images
+generateUpdatesFilesForAllChannels: true
+publish:
+  provider: generic
+  url: 'https://raw.githubusercontent.com/JonathanDCohen/outline-releases/master/manager/'
+artifactName: 'Outline-Manager.${ext}'
+electronVersion: 7.0.1
