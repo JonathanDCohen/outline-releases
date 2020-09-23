@@ -11,6 +11,6 @@ asarUnpack: server_manager/web_app/images
 generateUpdatesFilesForAllChannels: true
 publish:
   provider: generic
-  url: 'https://raw.githubusercontent.com/JonathanDCohen/outline-releases/master/manager/'
+  url: 'https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/'
 artifactName: 'Outline-Manager.${ext}'
 electronVersion: 7.0.1
