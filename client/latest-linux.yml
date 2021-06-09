@@ -1,9 +1,10 @@
-version: 1.2.0
+version: 1.4.0
 files:
   - url: Outline-Client.AppImage
-    sha512: y9q5b6x6RMS9iRQLtCsEyopyCENqjgvbboelGJ/hc48YzRiSXKPPvV0y67YEMI1iTR4hLQVcCtX0siohpKngLg==
-    size: 85102494
-    blockMapSize: 90034
+    sha512: yHP+EF842PoBXF0G4NOvVj2eQrDysNI3w6qJg1qn7xLXupRDZLiZp5OeeaXsvUNmo66ugaXaTw7GjbRpPWdClw==
+    size: 92446311
+    blockMapSize: 97915
 path: Outline-Client.AppImage
-sha512: y9q5b6x6RMS9iRQLtCsEyopyCENqjgvbboelGJ/hc48YzRiSXKPPvV0y67YEMI1iTR4hLQVcCtX0siohpKngLg==
-releaseDate: '2020-07-29T22:00:28.453Z'
+sha512: yHP+EF842PoBXF0G4NOvVj2eQrDysNI3w6qJg1qn7xLXupRDZLiZp5OeeaXsvUNmo66ugaXaTw7GjbRpPWdClw==
+releaseDate: '2021-04-28T20:48:41.349Z'
+stagingPercentage: 100
