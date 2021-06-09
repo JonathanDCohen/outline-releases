@@ -45,8 +45,7 @@ jobs:
             Outline-Client.AppImage
             latest.yml
           )
-          # TODO(cohenjon) Remove the first line in the loop once requests to those files go to 0.
           for file in ${FILES[@]}; do
-            aws s3 cp "${file}" s3://outline-releases/client/"${file}" --profile=outline-releases
-            aws s3 cp "${file}" s3://outline-releases/client/windows/"${file}" --profile=outline-releases
+            aws s3 cp "${file}" s3://outline-releases-experiments/client/"${file}" --profile=outline-releases
+            aws s3 cp "${file}" s3://outline-releases-experiments/client/windows/"${file}" --profile=outline-releases
           done
